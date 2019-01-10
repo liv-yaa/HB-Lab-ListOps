@@ -192,7 +192,7 @@ def replace_middle(input_list):
     """
 
     input_list[2:-2] = [42, 37]
-    # print(input_list)
+
 
 def delete_third_and_seventh(input_list):
     """Remove third and seventh elements of input_list and return nothing.
@@ -206,8 +206,9 @@ def delete_third_and_seventh(input_list):
 
     """
 
-    pass
-
+    input_list[2:3] = []
+    input_list[6:7]= []
+    
 
 def delete_middle(input_list):
     """Remove all elements from input_list except the first two and last two.
